@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="sys_user" max_length="40" name="x_366636_sicet_sys_user" type="collection"/>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sicetdesc" label="Sicetdesc" language="en" table="x_366636_sicet_logincident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sicetdesc</element>
+            <help/>
+            <hint/>
+            <label>Sicetdesc</label>
+            <language>en</language>
+            <name>x_366636_sicet_logincident</name>
+            <plural>Sicetdescs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-11 05:25:51</sys_created_on>
+            <sys_id>d418025cdb023300b5eef53a299619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sicetdesc</sys_name>
+            <sys_package display_value="sicet" source="x_366636_sicet">9f570e1cdb023300b5eef53a29961978</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sicet">9f570e1cdb023300b5eef53a29961978</sys_scope>
+            <sys_update_name>sys_documentation_x_366636_sicet_logincident_sicetdesc_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-11 05:25:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

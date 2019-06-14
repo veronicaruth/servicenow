@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="logincident" max_length="40" name="x_366636_sicet_logincident" type="collection">
+        <element choice="1" label="affecteduser" max_length="100" name="affecteduser" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="email" value="email"/>
+            </choice>
+        </element>
+        <element label="Affected user" max_length="32" name="affected_user" reference="x_366636_sicet_sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="shortdes" max_length="1000" name="shortdes" type="string"/>
+        <element label="sicetdesc" max_length="100" name="sicetdesc" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="due_date" max_length="40" name="u_due_date_2" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="date_" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="date1" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="date2" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <index name="index">
+            <element name="affected_user"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

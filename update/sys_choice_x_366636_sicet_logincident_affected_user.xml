@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="affected_user" table="x_366636_sicet_logincident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>affected_user</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>email</label>
+            <language>en</language>
+            <name>x_366636_sicet_logincident</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-11 06:44:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0f95258db423300b5eef53a299619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-11 06:44:06</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>affected_user</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>email</label>
+            <language>en</language>
+            <name>x_366636_sicet_logincident</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-11 06:40:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2f85e18db423300b5eef53a299619e7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-11 08:24:44</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>affected_user</element>
+            <name>x_366636_sicet_logincident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-11 06:40:07</sys_created_on>
+            <sys_id>48199e18db423300b5eef53a299619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>affected_user</sys_name>
+            <sys_package display_value="sicet" source="x_366636_sicet">9f570e1cdb023300b5eef53a29961978</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sicet">9f570e1cdb023300b5eef53a29961978</sys_scope>
+            <sys_update_name>sys_choice_x_366636_sicet_logincident_affected_user</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-11 06:40:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
