@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>asdfghjkl</description>
+        <internal_name>sicet_flow</internal_name>
+        <label_cache>[{"name":"Updated_1.current.manager","label":"Trigger➛User Record➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"f01899fc-c159-4e74-a80d-711bb96a6e13.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"f01899fc-c159-4e74-a80d-711bb96a6e13.Table","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f01899fc-c159-4e74-a80d-711bb96a6e13.Records","label":"5➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"43e8cded-fbb4-4717-bd60-02c900c7bb57.item","label":"4➛Task Record","reference":"task","reference_display":"Task Record","type":"reference","base_type":"reference"},{"name":"Updated_1.table_name","label":"Trigger➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name"},{"name":"1ae823c1-fa15-41a0-a78d-e0e4807c961c.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"1ae823c1-fa15-41a0-a78d-e0e4807c961c.Table","label":"3➛Task Table","reference":"task","reference_display":"Task Table","type":"table_name","base_type":"table_name"},{"name":"1ae823c1-fa15-41a0-a78d-e0e4807c961c.Records","label":"3➛Task Records","reference":"task","reference_display":"Task Records","type":"records","base_type":"records"},{"name":"cd289668-aa25-4591-859d-0351e3a825db.table_name","label":"2.1➛Request Table","reference":"sc_request","reference_display":"Request Table","type":"table_name","base_type":"table_name"},{"name":"cd289668-aa25-4591-859d-0351e3a825db.record","label":"2.1➛Request Record","reference":"sc_request","reference_display":"Request Record","type":"reference","base_type":"reference"},{"name":"b02c52ac-bde9-40ec-b42f-54a1eadb57ef.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"b02c52ac-bde9-40ec-b42f-54a1eadb57ef.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"7a5286a8-40dd-4a86-94fc-3b5f8907da68.item","label":"2➛Request Record","reference":"sc_request","reference_display":"Request Record","type":"reference","base_type":"reference"},{"name":"Updated_1.current","label":"Trigger➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"737b9d19-cab6-46c4-9bdc-271568aa4d0c.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"737b9d19-cab6-46c4-9bdc-271568aa4d0c.Table","label":"1➛Request Table","reference":"sc_request","reference_display":"Request Table","type":"table_name","base_type":"table_name"},{"name":"737b9d19-cab6-46c4-9bdc-271568aa4d0c.Records","label":"1➛Request Records","reference":"sc_request","reference_display":"Request Records","type":"records","base_type":"records"},{"name":"5004add2-3424-4719-8c52-c51db3455ab4.item","label":"1➛sys_user Record","reference":"x_366636_sicet_sys_user","reference_display":"sys_user","type":"reference","base_type":"reference"},{"name":"6ddc2779-74fd-478a-839c-1d9b510f4f5e.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"6ddc2779-74fd-478a-839c-1d9b510f4f5e.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"6ddc2779-74fd-478a-839c-1d9b510f4f5e.Records","label":"1➛sys_user Records","reference":"x_366636_sicet_sys_user","reference_display":"sys_user","type":"records","base_type":"records"},{"name":"d8e4ca1f-aaff-4e94-8a77-19b9d8f2eadb.Records","label":"4.1➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"d8e4ca1f-aaff-4e94-8a77-19b9d8f2eadb.Table","label":"4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"d8e4ca1f-aaff-4e94-8a77-19b9d8f2eadb.Count","label":"4.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>SICET flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-21 05:36:00</sys_created_on>
+        <sys_id>a64a2523db4abb0038507befbf96198d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SICET flow</sys_name>
+        <sys_package display_value="sicet" source="x_366636_sicet">9f570e1cdb023300b5eef53a29961978</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sicet">9f570e1cdb023300b5eef53a29961978</sys_scope>
+        <sys_update_name>sys_hub_flow_a64a2523db4abb0038507befbf96198d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-21 06:52:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a64a2523db4abb0038507befbf96198d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a64a2523db4abb0038507befbf96198d"/>
+</record_update>

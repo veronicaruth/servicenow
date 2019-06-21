@@ -6,6 +6,12 @@
             </choice>
         </element>
         <element label="Affected user" max_length="32" name="affected_user" reference="x_366636_sicet_sys_user" type="reference"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="hardware" value="hardware"/>
+                <element inactive_on_update="false" label="software" value="software"/>
+            </choice>
+        </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="shortdes" max_length="1000" name="shortdes" type="string"/>
         <element label="sicetdesc" max_length="100" name="sicetdesc" type="string"/>

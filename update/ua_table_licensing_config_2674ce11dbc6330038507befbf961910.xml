@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-13 05:43:26</sys_created_on>
-        <sys_id>654f9481db423300b5eef53a299619cf</sys_id>
+        <sys_id>2674ce11dbc6330038507befbf961910</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_366636_sicet_lbackup</sys_name>
         <sys_package display_value="sicet" source="x_366636_sicet">9f570e1cdb023300b5eef53a29961978</sys_package>
         <sys_policy/>
         <sys_scope display_value="sicet">9f570e1cdb023300b5eef53a29961978</sys_scope>
-        <sys_update_name>ua_table_licensing_config_654f9481db423300b5eef53a299619cf</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_2674ce11dbc6330038507befbf961910</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-06-13 05:43:26</sys_updated_on>
     </ua_table_licensing_config>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:x="http://www.service-now.com/x_367064_sicetapp_testing_ws">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <x:update>
+         <!--Optional:-->
+         <import_set_run>${update.import_set_run}</import_set_run>
+         <sys_id>${update.sys_id}</sys_id>
+         <!--Optional:-->
+         <template_import_log>${update.template_import_log}</template_import_log>
+         <!--Optional:-->
+         <u_import_set_run>${update.u_import_set_run}</u_import_set_run>
+         <!--Optional:-->
+         <u_short_description>${update.u_short_description}</u_short_description>
+         <!--Optional:-->
+         <u_template_import_log>${update.u_template_import_log}</u_template_import_log>
+      </x:update>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>update</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>soap [ update ]</qualified_name>
+        <soap_action>http://www.service-now.com/x_367064_sicetapp_testing_ws/update</soap_action>
+        <soap_endpoint>https://dev81206.service-now.com/x_367064_sicetapp_testing_ws.do?SOAP</soap_endpoint>
+        <soap_message display_value="soap">5008df32db8af70038507befbf961911</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 06:25:43</sys_created_on>
+        <sys_id>df72e3b2dbcaf70038507befbf96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update</sys_name>
+        <sys_package display_value="sicet" source="x_366636_sicet">9f570e1cdb023300b5eef53a29961978</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sicet">9f570e1cdb023300b5eef53a29961978</sys_scope>
+        <sys_update_name>sys_soap_message_function_df72e3b2dbcaf70038507befbf96198f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 06:25:43</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>

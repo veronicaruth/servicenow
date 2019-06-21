@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="WStest" max_length="40" name="x_366636_sicet_wstest" type="collection">
+        <element label="shortdesc" max_length="40" name="shortdesc" type="string"/>
+    </element>
+</database>

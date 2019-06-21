@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_id</element>
-            <list_id display_value="x_366636_sicet_sys_user" element="NULL" name="x_366636_sicet_sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">53255694db423300b5eef53a299619c2</list_id>
+            <list_id display_value="x_366636_sicet_sys_user" element="NULL" name="x_366636_sicet_sys_user" parent="NULL" relationship="NULL" sys_domain="global" view="ec4001623433230078507f0289bd019d">53255694db423300b5eef53a299619c2</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-06-11 06:23:07</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">f83811707420330078509adcc48c879b</view>
+            <view display_value="Reference List" name="sys_ref_list">ec4001623433230078507f0289bd019d</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

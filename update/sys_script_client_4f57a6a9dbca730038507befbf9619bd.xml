@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_string_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>glideajax</name>
+        <order/>
+        <script><![CDATA[function onLoad(){
+	var fuser=g_form.getValue('user');
+	alert('user');
+var ga = new GlideAjax('HelloWorld');
+ga.addParam('sysparm_name', 'helloWorld');
+ga.addParam('sysparm_user_name', "Bob");
+ga.getXML(HelloWorldParse);
+ 
+function HelloWorldParse(response) {
+  var answer = response.responseXML.documentElement.getAttribute("answer");
+  alert(answer); }
+ 
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-15 05:14:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f57a6a9dbca730038507befbf9619bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>glideajax</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="sicet" source="x_366636_sicet">9f570e1cdb023300b5eef53a29961978</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sicet">9f570e1cdb023300b5eef53a29961978</sys_scope>
+        <sys_update_name>sys_script_client_4f57a6a9dbca730038507befbf9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-15 05:38:25</sys_updated_on>
+        <table>x_366636_sicet_logincidentbackup</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

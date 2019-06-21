@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="update" max_length="40" name="x_366636_sicet_update" type="collection">
+        <element label="shortdes" max_length="40" name="shortdes" type="string"/>
+    </element>
+</database>

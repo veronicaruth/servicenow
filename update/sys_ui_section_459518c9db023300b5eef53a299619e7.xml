@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-13 05:01:05</sys_created_on>
-            <sys_id>4595900ddb023300b5eef53a299619fc</sys_id>
+            <sys_created_on>2019-06-15 04:51:32</sys_created_on>
+            <sys_id>e496e669dbca730038507befbf9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_366636_sicet_logincidentbackup" sys_domain="global" view="Default view">459518c9db023300b5eef53a299619e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-13 05:01:05</sys_updated_on>
+            <sys_updated_on>2019-06-15 04:51:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,27 @@
             <element>shortdesc</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-13 05:01:05</sys_created_on>
-            <sys_id>4d95900ddb023300b5eef53a299619fc</sys_id>
+            <sys_created_on>2019-06-15 04:51:32</sys_created_on>
+            <sys_id>7096e669dbca730038507befbf9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_366636_sicet_logincidentbackup" sys_domain="global" view="Default view">459518c9db023300b5eef53a299619e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-13 05:01:05</sys_updated_on>
+            <sys_updated_on>2019-06-15 04:51:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-15 04:51:32</sys_created_on>
+            <sys_id>f096e669dbca730038507befbf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_366636_sicet_logincidentbackup" sys_domain="global" view="Default view">459518c9db023300b5eef53a299619e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-15 04:51:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

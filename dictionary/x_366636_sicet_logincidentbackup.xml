@@ -2,5 +2,12 @@
     <element label="logincidentbackup" max_length="40" name="x_366636_sicet_logincidentbackup" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Shortdes" max_length="100" name="shortdesc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="user" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="abel" sequence="0" value="abel"/>
+                <element inactive_on_update="false" label="alen" sequence="1" value="alen"/>
+                <element inactive_on_update="false" label="eric" sequence="2" value="eric"/>
+            </choice>
+        </element>
     </element>
 </database>
